@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>EcoSteps — Small Actions, Big Impact</title>
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Local stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- NAV -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#home">
+                    <img src="imgs/logo.png"/>
+                </a>
+            </div>
+
+            <div class="main-menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#initiatives">Initiatives</a></li>
+                    <li><a href="#join">Join Us</a></li>
+                    <li><a class="btn" href="#join"><i class="fas fa-leaf"></i> Get Involved</a></li>
+                </ul>
+            </div>
+
+            <button class="hamburger-button" aria-label="Toggle menu" aria-expanded="false">
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+            </button>
+
+            <div class="mobile-menu" aria-hidden="true">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#initiatives">Initiatives</a></li>
+                    <li><a href="#join">Join Us</a></li>
+                    <li><a class="btn" href="#join"><i class="fas fa-leaf"></i> Get Involved</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-heading text-xxl">Small Actions, Big Impact.</h1>
+                <p class="hero-text">
+                    EcoSteps helps you have everyday sustainable habits, from plastic-free swaps to
+                    planting trees with the community. Track, share, and grow your impact in the world.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#join" class="btn btn-primary">Join the Movement</a>
+                    <a href="#initiatives" class="btn"><i class="fas fa-info-circle"></i> Learn More</a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <img src="imgs/planting-trees1.png"/>
+            </div>
+        </div>
+    </header>
+
+    <!-- ABOUT -->
+    <section id="about" class="about bg-light">
+        <div class="container-sm">
+            <h2 class="text-xl text-center">What is EcoSteps?</h2>
+            <p class="text-md text-center">
+                EcoSteps is a community and a platform for small actions that
+                make a measurable environmental difference. Choose simple habits, join local events,
+                and watch your impact grow.
+            </p>
+            <div class="about-grid">
+                <div class="card">
+                    <img src="imgs/nature.png"/>
+                    <h4>Our Mission</h4>
+                    <p>Encourage sustainable choices that are easy to start and easy to keep.</p>
+                </div>
+                <div class="card">
+                    <img src="imgs/cleaning-beach.png"/>
+                    <h4>Community</h4>
+                    <p>Local groups, school clubs, and volunteers collaborating on green initiatives.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INITIATIVES -->
+    <section id="initiatives" class="initiatives">
+        <div class="container-sm">
+            <h3 class="text-xl text-center">Initiatives</h3>
+            <p class="text-md text-center">Start picking one habit and give it your all.</p>
+
+            <div class="initiatives-grid">
+                <div class="card">
+                    <img src="imgs/tree-planting.jpg"/>
+                    <h4>Tree Planting</h4>
+                    <p>Community gatherings to restore local green spaces and improve biodiversity.</p>
+                    <a class="btn" href="#">Learn More</a>
+                </div>
+
+                <div class="card">
+                    <img src="imgs/green-comute.jpg"/>
+                    <h4>Green Commutes</h4>
+                    <p>Encourage biking and public transport to reduce emissions.</p>
+                    <a class="btn" href="#">Learn More</a>
+                </div>
+
+                <div class="card">
+                    <img src="imgs/plastic-free-living.jpg"/>
+                    <h4>Plastic-Free Living</h4>
+                    <p>Take on challenges and make simple changes to live plastic-free.</p>
+                    <a class="btn" href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JOIN -->
+    <section id="join" class="join">
+        <div class="container-sm">
+            <h3 class="text-xl text-center">Be the Change</h3>
+            <p class="text-md text-center">Join for free or upgrade to a Member plan for advanced features.</p>
+
+            <div class="pricing-grid">
+                <div class="card bg-grey">
+                    <h4 class="text-lg">Community</h4>
+                    <p class="text-sm">Free -> get tips, join events, and access to basic tracking</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Access to initiatives</li>
+                        <li><i class="fas fa-check"></i> Community forum</li>
+                    </ul>
+                    <a class="btn btn-primary btn-block" href="#">Join for Free</a>
+                </div>
+
+                <div class="card bg-black">
+                    <h4 class="text-lg">Member</h4>
+                    <p class="text-sm">3€/month -> impact tracker, challenges & leaderboards</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Personal impact dashboard</li>
+                        <li><i class="fas fa-check"></i> Exclusive challenges</li>
+                    </ul>
+                    <a class="btn btn-primary btn-block" href="#">Become a Member</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <!-- Logo + socials -->
+            <div>
+                <img src="imgs/logo.png" alt="EcoSteps Logo" />
+                <div class="socials">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#">info@ecosteps.org</a>
+                    </li>
+                </ul>
+            </div>
+    
+            <!-- Newsletter -->
+            <div class="footer-newsletter">
+                <h4>Subscribe to Newsletter</h4>
+                <form>
+                    <input type="email" id="email" placeholder="Enter your email" required />
+                    <button type="submit" class="btn btn-grey">
+                        Subscribe
+                    </button>
+                </form>
+            </div>
+    
+            <!-- Company -->
+            <div>
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Process</a></li>
+                    <li><a href="#">Join Our Team</a></li>
+                </ul>
+            </div>
+    
+            <!-- Resources -->
+            <div>
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Research</a></li>
+                    <li><a href="#">Recent Projects</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
