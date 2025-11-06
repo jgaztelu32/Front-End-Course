@@ -1,2 +1,2 @@
-# Front-End-Course
-This repository has all the contents related to the LUT Front-End course
+# Ecosteps
+EcoSteps is a simple, responsive web page that promotes sustainable living and encourages people to take steps towards an environmental difference. 
